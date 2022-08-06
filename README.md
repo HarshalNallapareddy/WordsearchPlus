@@ -32,6 +32,11 @@ https://github.com/HarshalNallapareddy/WordsearchPlus/blob/0c088a8ec7dd303feafea
 <h2>Output</h2>
 The output interface displays the letter grid that the user submitted but with the letters highlighted in yellow to indicate that they are part of a word.
 
+<p align="center">
+  <img src="https://github.com/HarshalNallapareddy/WordsearchPlus/blob/main/images/OutputGUI.PNG" alt="Input GUI" width=45% height=auto>
+</p>
+
+
 <b>Points of Improvement:</b>
 <ul>
   <li>Highlighting each word its own color to avoid confusion between words; however, there is an issue of which color overlapping letters should be.
