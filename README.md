@@ -21,7 +21,7 @@ The letter grid and word list are displayed on a Tkinter GUI for the user to val
   <li>Add a layer of ML to extract the letter grid and word list from a single image
 </ul>
 <h2>Search Algorithm</h2>
-The search aglorithm traverses through the grid for each word in the list. When the first letter of the word is encountered, the algorithm checks the surrounding letters and seeks the rest of the word. 
+The search aglorithm traverses through the grid for each word in the list. When the first letter of the word is encountered, the algorithm checks the surrounding letters and seeks the rest of the word. A list of letter positions is returned to the output interface. 
 
 https://github.com/HarshalNallapareddy/WordsearchPlus/blob/0c088a8ec7dd303feafeae1313e12d689a60f804/algo.py#L8-L27
 
@@ -30,8 +30,9 @@ https://github.com/HarshalNallapareddy/WordsearchPlus/blob/0c088a8ec7dd303feafea
   <li>Clearly, the algorithm is highly inefficient from a time complexity standpoint. Possible improvements could be removing redundant grid traversal.
 </ul>
 <h2>Output</h2>
+The output interface displays the letter grid that the user submitted but with the letters highlighted in yellow to indicate that they are part of a word.
 
-
+<b>Points of Improvement:</b>
 <ul>
-  <li><b>Point of Improvement:</b>
+  <li>Highlighting each word its own color to avoid confusion between words; however, there is an issue of which color overlapping letters should be.
 </ul>
