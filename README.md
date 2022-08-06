@@ -6,14 +6,14 @@ A python script to solve wordsearch puzzles, fitted with Pytesseract OCR and Tki
 WordsearchPlus takes 2 PNG images as input, the puzzle grid and the list of words, and uses OpenCV and Pytesseract for image pre-processing and OCR. Upon completing all necessary edits (if any), the user submits the grid and list for the algorithm to search for all the words in the grid. The grid is displayed again but with the words highlighted in the grid. 
 
 <p align="center">
-  <img src="https://github.com/HarshalNallapareddy/WordsearchPlus/blob/main/wordsearch.PNG" alt="Wordsearch Grid" width=35% height=auto>
-  <img src="https://github.com/HarshalNallapareddy/WordsearchPlus/blob/main/words.PNG" alt="Wordsearch Grid" width=auto height=25%>
+  <img src="https://github.com/HarshalNallapareddy/WordsearchPlus/blob/main/images/wordsearch.PNG" alt="Wordsearch Grid" width=35% height=auto>
+  <img src="https://github.com/HarshalNallapareddy/WordsearchPlus/blob/main/images/words.PNG" alt="Wordsearch Grid" width=auto height=25%>
 </p>
 
 The letter grid and word list are displayed on a Tkinter GUI for the user to validate the grid/list and make edits in case the OCR misread any characters. The user also has the ability to add or delete rows and columns of the letter grid as well as add or remove words from the word list.
 
 <p align="center">
-  <img src="" alt="Input GUI" width=35% height=auto>
+  <img src="https://github.com/HarshalNallapareddy/WordsearchPlus/blob/main/images/InputGUI.PNG" alt="Input GUI" width=60% height=auto>
 </p>
 
 
